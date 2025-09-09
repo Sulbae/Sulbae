@@ -1,6 +1,6 @@
 # Hello! 👋
 
-🤚 My name is **Anggun Sulis Setyawan**.<br>
+🤚 My name is **Anggun Sulis Setyawan** a.k.a [@_bangsuwan](https://instagram.com/_bangsuwan/).<br>
 
 🌱 I’m currently learning about data science and machine learning.<br>
 
