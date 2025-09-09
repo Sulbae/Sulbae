@@ -2,11 +2,15 @@
 
 🤚 My name is **Anggun Sulis Setyawan**.<br>
 
-🌱 I’m currently learning about data science and machine learning.<br> 
+🌱 I’m currently learning about data science and machine learning.<br>
 
-🤟 I'm passionate about learning about data science applications for environmental issues around the world especially waste management issues in Indonesia. Interestingly, information technology (i.e. IoT, etc) can help us to make the right decision (solution) to save our home (the earth).<br> 
+🤟 Passionate about data science and machine learning to support environmental sustainability and tech-based solutions.<br>
+---
+I'm interested in applying technology to tackle global environmental issues. Remarkably, leveraging information technology, such as IoT and Artificial Intelligence, can assist us in creating precise plans to preserve our planet. Therefore, in addition to studying environmental science, I enhanced my skills in Big Data Analytics, Design Thinking, and Machine Learning Development through the Kampus Merdeka Program, and prepared myself to develop future solutions. I would be happy if I could solve problems by designing solutions that harmonize economic, social, and environmental aspects within the Indonesian technology ecosystem. 
 
-🚀 My big vision is to build a green-tech company that will align economic, social, and environmental aspects with the technology ecosystem in Indonesia. The mission is to facilitate people to live better. Hence, I need lots of superpartners to gain the big goal. If you have any interest in collaboration, [feel free to connect to my LinkedIn](https://www.linkedin.com/in/anggun-sulis-setyawan/)
+I am seeking collaborative partnerships to achieve this ambitious endeavor. I would like to invite you all to join me in building the ADEM community (AI Development for better Environmental Management) as our initial step towards greater impact. The community will be a study club that focuses on research and development of machine learning/AI or data science, big data, etc., and their applications in environmental monitoring and management. 
+
+If you share the same interests, 🚀 LET'S CONNECT!(https://www.linkedin.com/in/anggun-sulis-setyawan/)
 
 ### GitHub Statistic
 <p align="left">
