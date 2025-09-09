@@ -10,7 +10,7 @@ I'm interested in applying technology to tackle global environmental issues. Rem
 
 I am seeking collaborative partnerships to achieve this ambitious endeavor. I would like to invite you all to join me in building the ADEM community (AI Development for better Environmental Management) as our initial step towards greater impact. The community will be a study club that focuses on research and development of machine learning/AI or data science, big data, etc., and their applications in environmental monitoring and management. 
 
-If you share the same interests, 🚀 LET'S CONNECT!(https://www.linkedin.com/in/anggun-sulis-setyawan/)
+If you share the same interests, 🚀 [LET'S CONNECT!](https://www.linkedin.com/in/anggun-sulis-setyawan/)
 
 ### GitHub Statistic
 <p align="left">
