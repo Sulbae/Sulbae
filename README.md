@@ -4,13 +4,16 @@
 
 🌱 I’m currently learning about data science and machine learning.<br>
 
-🤟 Passionate about data science and machine learning to support environmental sustainability and tech-based solutions.<br>
+🤟 Passionate about applying data science and machine learning to support environmental sustainability and develop tech-based solutions with measurable impact.<br>
 ---
-I'm interested in applying technology to tackle global environmental issues. Remarkably, leveraging information technology, such as IoT and Artificial Intelligence, can assist us in creating precise plans to preserve our planet. Therefore, in addition to studying environmental science, I enhanced my skills in Big Data Analytics, Design Thinking, and Machine Learning Development through the Kampus Merdeka Program, and prepared myself to develop future solutions. I would be happy if I could solve problems by designing solutions that harmonize economic, social, and environmental aspects within the Indonesian technology ecosystem. 
+With a background in Environmental Science, I have built a strong foundation through several academic and independent projects in Big Data Management and Analytics, Design Thinking, and Machine Learning/AI Development. I aim to contribute as a solutions-driven professional who connects technology and sustainability through data-driven innovation. 
 
-I am seeking collaborative partnerships to achieve this ambitious endeavor. I would like to invite you all to join me in building the ADEM community (AI Development for better Environmental Management) as our initial step towards greater impact. The community will be a study club that focuses on research and development of machine learning/AI or data science, big data, etc., and their applications in environmental monitoring and management. 
+I'm currently initiating ADEM (AI Development for better Environmental Management) -- a community for those who want to explore and develop AI, Data Science, and Big Data applications for environmental sustainability. If you share the same passion, 🌎 let's connect and create meaningful impact together!🚀 
 
-If you share the same interests, 🚀 [LET'S CONNECT!](https://www.linkedin.com/in/anggun-sulis-setyawan/)
+I'm also open to opportunities in data analytics, machine learning, or data science roles where I can contribute to developing measurable, data-supported solutions that align with both organizational and sustainability goals.
+ 
+
+🚀 [CONNECT HERE!](https://www.linkedin.com/in/anggun-sulis-setyawan/)
 
 ### GitHub Statistic
 <p align="left">
