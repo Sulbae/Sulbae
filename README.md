@@ -6,9 +6,9 @@ With a background in Environmental Science, I have built a strong foundation thr
 
 I'm currently initiating ADEM (AI Development for better Environmental Management) -- a community for those who want to explore and develop AI, Data Science, and Big Data applications for environmental sustainability. If you share the same passion, 🌎 [LET'S CONNECT](https://www.linkedin.com/in/anggun-sulis-setyawan/) and create meaningful impact together!🚀 
 
-_Open to opportunities in data analytics, machine learning, or data science roles where I can contribute to developing measurable, data-supported solutions that align with both organizational and sustainability goals._<br>
+_Open to opportunities in data analytics, machine learning, or data science roles where I can contribute to developing measurable, data-supported solutions that align with both organizational and sustainability goals._ <br>
 
-### GitHub Statistic
+### GitHub Statistics
 <p align="left">
 <a href="https://github.com/Sulbae">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Sulbae&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
