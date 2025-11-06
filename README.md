@@ -1,8 +1,8 @@
 # Hello! 👋
 
-🤚 My name is **Anggun Sulis Setyawan** a.k.a [@_bangsuwan](https://instagram.com/_bangsuwan/).<br>
+🤚 I am **Ang Sul Wan** a.k.a [@_bangsuwan](https://instagram.com/_bangsuwan/).<br>
 
-🌱 I’m currently learning about data science and machine learning.<br>
+🌱 _I’m a data science and machine learning learner_.<br>
 
 🤟 Passionate about applying data science and machine learning to support environmental sustainability and develop tech-based solutions with measurable impact.<br>
 ---
