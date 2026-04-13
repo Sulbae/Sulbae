@@ -78,7 +78,7 @@ learning emerging technologies, and collaborating in interdisciplinary environme
         alt="GitHub Stats"/>
     </a>
     <a href="https://github.com/Sulbae">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sulbae&layout=compact&theme=algolia"
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sulbae&layout=donut&theme=algolia"
         height="150px"
         alt="Top Languages"/>
     </a>
