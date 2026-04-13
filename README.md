@@ -15,3 +15,7 @@ learning emerging technologies, and collaborating in interdisciplinary environme
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sulbae&layout=compact&theme=algolia"/>
 </a>
 </p>
+
+![snake light](https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake.svg)
+![snake dark](https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake-dark.svg#gh-dark-mode-only)
+![snake dark light](https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake.svg#gh-light-mode-only)
