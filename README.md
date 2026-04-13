@@ -1,7 +1,12 @@
+<div align="center">
+  <h3>Hi, I am **Bang Suwan** 👋</h3>
 
-# Hi, I am **Ang Sul Wan** a.k.a _bangsuwan! 👋
+  <p>
+    <a href="">
+      <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" alt="Portfolio">
+    </a>
+  </p>
 
-![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@bangsuwan)
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/_bangsuwan/)
