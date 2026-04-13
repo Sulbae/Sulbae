@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hi, I am Bang Suwan 👋</h1>
+  <h1>Hi, I am Bang Suwan a.k.a Sul 👋</h1>
 
   <p>
     <a href="https://sulbae.github.io/">
