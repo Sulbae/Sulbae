@@ -1,6 +1,11 @@
 name: Generate Snake Animation
 
 on:
+  push:
+    branches: [main, master]
+    paths:
+      - '.github/workflows/snake.yml'
+      - 'README.md'
   schedule:
     - cron: '0 0 * * *' # Jalankan otomatis setiap 24 jam
   workflow_dispatch: # Bisa dijalankan manual dari tab Actions
