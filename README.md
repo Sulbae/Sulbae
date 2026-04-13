@@ -17,4 +17,4 @@ learning emerging technologies, and collaborating in interdisciplinary environme
 </p>
 
 <!-- khusus dark mode -->
-<img src="https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake-dark.svg" alt="snake" />
+<img src="https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake-dark.svg?v=100" alt="snake" />
