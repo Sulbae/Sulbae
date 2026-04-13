@@ -18,4 +18,4 @@ learning emerging technologies, and collaborating in interdisciplinary environme
 
 ![snake light](https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake.svg)
 ![snake dark](https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake-dark.svg#gh-dark-mode-only)
-![snake dark light](https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake.svg#gh-light-mode-only)
+
