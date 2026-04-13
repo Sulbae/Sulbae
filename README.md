@@ -1,13 +1,10 @@
 # Hi, I am **Ang Sul Wan** a.k.a [@_bangsuwan](https://instagram.com/_bangsuwan/)! 👋
 
 ---
-### 🤟 Passionate about applying data science and machine learning to support environmental sustainability and develop tech-based solutions with measurable impact.<br>
-
-With a background in Environmental Science, I have built a strong foundation through several academic and independent projects in Big Data Management and Analytics, Design Thinking, and Machine Learning/AI Development. I aim to contribute as a solutions-driven professional who connects technology and sustainability through data-driven innovation. 
-
-I'm considering building ADEM (AI Development for better Environmental Management) -- a community for those who want to explore and develop AI, Data Science, and Big Data applications for environmental sustainability. If you share the same passion, 🌎 [LET'S CONNECT](https://www.linkedin.com/in/anggun-sulis-setyawan/) and create meaningful impact together!🚀 
-
-_Open to opportunities in data analytics, machine learning, or data science roles where I can contribute to developing measurable, data-supported solutions that align with both organizational and sustainability goals._
+Environmental Engineering graduate with strong transition into Data, Machine Learning, and AI 
+development. Experienced in designing data-driven solutions and developing machine learning models 
+through self-initiated projects. Passionate about leveraging AI to solve real-world problems, continuously 
+learning emerging technologies, and collaborating in interdisciplinary environments. 
 
 ---
 ### GitHub Statistics
