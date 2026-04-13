@@ -5,6 +5,11 @@ on:
     - cron: '0 0 * * *' # Jalankan otomatis setiap 24 jam
   workflow_dispatch: # Bisa dijalankan manual dari tab Actions
 
+permissions: 
+  contents: write # untuk push ke branch output
+  pages: write # Opsional, jika deploy ke github pages
+  id-token: write # Opsional, untuk verifikasi token
+
 jobs:
   build:
     runs-on: ubuntu-latest
