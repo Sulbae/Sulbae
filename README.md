@@ -68,15 +68,24 @@ learning emerging technologies, and collaborating in interdisciplinary environme
   </p>
 </div>
 
+<div align="center">
+  <h3>GitHub Statistics</h3>
 
-### GitHub Statistics
+  <p>
+    <a href="https://github.com/Sulbae">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Sulbae&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"
+        height="150px" width="50%"
+        alt="GitHub Stats"/>
+    </a>
+    <a href="https://github.com/Sulbae">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sulbae&layout=compact&theme=algolia"
+        height="150px" width="50%"
+        alt="Top Languages"/>
+    </a>
+    <a>
+      <!-- Snake Animation khusus dark mode -->
+      <img src="https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake-dark-v2.svg?v=100" alt="snake" />
+    </a>
+  </p>
+</div>
 
-<p align="left">
-<a href="https://github.com/Sulbae">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Sulbae&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sulbae&layout=compact&theme=algolia"/>
-</a>
-</p>
-
-<!-- khusus dark mode -->
-<img src="https://raw.githubusercontent.com/Sulbae/Sulbae/output/github-snake-dark-v2.svg?v=100" alt="snake" />
