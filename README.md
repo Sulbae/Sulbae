@@ -1,5 +1,5 @@
 <div align="center">
-  <h3>Hi, I am **Bang Suwan** 👋</h3>
+  <h3>Hi, I am Bang Suwan 👋</h3>
 
   <p>
     <a href="">
