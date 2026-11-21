@@ -73,12 +73,12 @@ learning emerging technologies, and collaborating in interdisciplinary environme
 
   <p>
     <a href="https://github.com/Sulbae">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Sulbae&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"
+      <img src="https://github-readme-stats.vercel.app/api?username=Sulbae&amp;show_icons=true&amp;theme=algolia&amp;include_all_commits=true"
         height="150px"
         alt="GitHub Stats"/>
     </a>
     <a href="https://github.com/Sulbae">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sulbae&layout=donut&theme=algolia"
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sulbae&amp;layout=donut&amp;theme=algolia"
         height="150px"
         alt="Top Languages"/>
     </a>
