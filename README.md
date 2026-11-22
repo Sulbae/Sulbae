@@ -1,10 +1,11 @@
 <div align="center">
+  <h1>Hi, I am Bang Suwan a.k.a Sul 👋</h1>
+  
   <img src="./data-specialist-gold-mist.svg" alt="Data Specialist Banner" width="100%" />
 </div>
 
 <div align="center">
-  <h1>Hi, I am Bang Suwan a.k.a Sul 👋</h1>
-
+  
   <p>
     <a href="https://sulbae.github.io/">
       <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" 
