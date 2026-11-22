@@ -1,0 +1,404 @@
+<svg width="850" height="200" viewBox="0 0 850 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="darkBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e13" />
+      <stop offset="55%" stop-color="#121720" />
+      <stop offset="100%" stop-color="#0a0d12" />
+    </linearGradient>
+
+    
+    <linearGradient id="lightSweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f2d89d" stop-opacity="0" />
+      <stop offset="50%" stop-color="#f2d89d" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#f2d89d" stop-opacity="0" />
+    </linearGradient>
+
+    
+    <linearGradient id="mistGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4f0e5" stop-opacity="0" />
+      <stop offset="50%" stop-color="#f4f0e5" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#f4f0e5" stop-opacity="0" />
+    </linearGradient>
+
+    
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f0e5" />
+      <stop offset="55%" stop-color="#f2d89d" />
+      <stop offset="100%" stop-color="#d2a65d" />
+    </linearGradient>
+
+    <clipPath id="goldMistClip">
+      <rect x="0" y="0" width="850" height="200" rx="12" />
+    </clipPath>
+
+    <style>
+      /* Variabel palet &amp; durasi sesuai konfigurasi */
+      :root {
+        --gold: #d2a65d;
+        --gold-highlight: #f2d89d;
+        --leaf-color: #bd8b43;
+        --mist-color: #f4f0e5;
+        --mist-opacity: .18;
+        --mist-speed: 28s;
+        --mist-speed-slow: 34s;
+        --light-speed: 24s;
+        --leaf-speed: 17s;
+        --leaf-speed-slow: 21s;
+      }
+
+      .ds-title {
+        font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+        font-size: 27px;
+        font-weight: 800;
+        letter-spacing: 1.2px;
+        fill: #f4f0e5;
+      }
+      .ds-identity {
+        font-family: "JetBrains Mono", "Fira Code", monospace;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        fill: #b8ab92;
+      }
+      .mono-sm {
+        font-family: "JetBrains Mono", "Fira Code", monospace;
+        font-size: 8.8px;
+        fill: #d2a65d;
+      }
+      .mono-xs {
+        font-family: "JetBrains Mono", "Fira Code", monospace;
+        font-size: 8.2px;
+        fill: #e5decb;
+      }
+
+      /* Kabut bergerak */
+      .mist-layer {
+        fill: #f4f0e5;
+        opacity: .18;
+        animation: mistDrift var(--mist-speed, 28s) ease-in-out infinite;
+      }
+      .mist-layer-slow {
+        fill: #f4f0e5;
+        opacity: .18;
+        animation: mistDriftReverse var(--mist-speed-slow, 34s) ease-in-out infinite;
+      }
+
+      /* Light sweep bergerak */
+      .light-sweep {
+        animation: sweepAcross var(--light-speed, 24s) ease-in-out infinite;
+      }
+
+      /* Animasi lightning (kilatan petir halus &amp; berdenyut) */
+      .lightning-bolt {
+        fill: none;
+        stroke: url(#boltGrad);
+        stroke-width: 1.6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        opacity: 0;
+        animation: boltFlash 6.5s ease-in-out infinite;
+      }
+      .lightning-bolt-alt {
+        fill: none;
+        stroke: #f2d89d;
+        stroke-width: 1.2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        opacity: 0;
+        animation: boltFlashAlt 8.5s ease-in-out 2.5s infinite;
+      }
+      .lightning-flash-bg {
+        fill: #f2d89d;
+        opacity: 0;
+        animation: ambientSpark 6.5s ease-in-out infinite;
+      }
+
+      /* Falling leaves (#bd8b43) */
+      .falling-leaf {
+        fill: #bd8b43;
+        opacity: 0.85;
+        animation: leafFall var(--leaf-speed, 17s) linear infinite;
+      }
+      .falling-leaf-slow {
+        fill: #bd8b43;
+        opacity: 0.7;
+        animation: leafFallAlt var(--leaf-speed-slow, 21s) linear infinite;
+      }
+
+      /* Animasi ilustrasi Data (baris data &amp; disk) */
+      .data-row-1 { animation: rowPulse 3s ease-in-out infinite; }
+      .data-row-2 { animation: rowPulse 3s ease-in-out 0.6s infinite; }
+      .data-row-3 { animation: rowPulse 3s ease-in-out 1.2s infinite; }
+      .data-row-4 { animation: rowPulse 3s ease-in-out 1.8s infinite; }
+
+      .disk-glow {
+        animation: softGlow 4s ease-in-out infinite;
+      }
+
+      /* Jalur &amp; sinyal mengalir */
+      .edge-base {
+        fill: none;
+        stroke: #2a2f38;
+        stroke-width: 1.1;
+      }
+      .signal-gold {
+        fill: none;
+        stroke: #f2d89d;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-dasharray: 18 130;
+        animation: flowPulse 3s linear infinite;
+      }
+      .signal-amber {
+        fill: none;
+        stroke: #d2a65d;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-dasharray: 16 140;
+        animation: flowPulse 3.6s linear 1s infinite;
+      }
+
+      .node-pulse-1 { animation: nodeGlow 2.4s ease-in-out infinite; }
+      .node-pulse-2 { animation: nodeGlow 2.4s ease-in-out 0.6s infinite; }
+      .node-pulse-3 { animation: nodeGlow 2.4s ease-in-out 1.2s infinite; }
+      .node-pulse-4 { animation: nodeGlow 2.4s ease-in-out 1.8s infinite; }
+
+      /* Animasi ilustrasi Solusi */
+      .solution-ring {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: ringBreath 3.6s ease-in-out infinite;
+      }
+      .solution-check {
+        stroke-dasharray: 45;
+        stroke-dashoffset: 45;
+        animation: checkDraw 3.6s ease-out infinite;
+      }
+
+      @keyframes mistDrift {
+        0%   { transform: translateX(-110px); }
+        50%  { transform: translateX(110px); }
+        100% { transform: translateX(-110px); }
+      }
+      @keyframes mistDriftReverse {
+        0%   { transform: translateX(120px); }
+        50%  { transform: translateX(-120px); }
+        100% { transform: translateX(120px); }
+      }
+      @keyframes sweepAcross {
+        0%   { transform: translateX(-520px); opacity: 0; }
+        20%  { opacity: 0.9; }
+        80%  { opacity: 0.9; }
+        100% { transform: translateX(880px); opacity: 0; }
+      }
+      @keyframes boltFlash {
+        0%, 82%, 100% { opacity: 0; }
+        84%            { opacity: 0.95; }
+        85.5%          { opacity: 0.2; }
+        87%            { opacity: 0.85; }
+        90%            { opacity: 0; }
+      }
+      @keyframes boltFlashAlt {
+        0%, 85%, 100% { opacity: 0; }
+        87%            { opacity: 0.75; }
+        88.5%          { opacity: 0.15; }
+        90%            { opacity: 0.65; }
+        92.5%          { opacity: 0; }
+      }
+      @keyframes ambientSpark {
+        0%, 82%, 100% { opacity: 0; }
+        84.5%          { opacity: 0.06; }
+        87%            { opacity: 0.04; }
+        90%            { opacity: 0; }
+      }
+      @keyframes leafFall {
+        0% {
+          transform: translate(420px, -20px) rotate(0deg);
+          opacity: 0;
+        }
+        15% { opacity: 0.85; }
+        85% { opacity: 0.7; }
+        100% {
+          transform: translate(560px, 210px) rotate(140deg);
+          opacity: 0;
+        }
+      }
+      @keyframes leafFallAlt {
+        0% {
+          transform: translate(660px, -25px) rotate(25deg);
+          opacity: 0;
+        }
+        15% { opacity: 0.75; }
+        85% { opacity: 0.6; }
+        100% {
+          transform: translate(790px, 215px) rotate(185deg);
+          opacity: 0;
+        }
+      }
+      @keyframes rowPulse {
+        0%, 100% { opacity: 0.45; transform: translateX(0px); }
+        50%      { opacity: 1; transform: translateX(3px); }
+      }
+      @keyframes softGlow {
+        0%, 100% { opacity: 0.7; }
+        50%      { opacity: 1; }
+      }
+      @keyframes flowPulse {
+        from { stroke-dashoffset: 148; }
+        to   { stroke-dashoffset: 0; }
+      }
+      @keyframes nodeGlow {
+        0%, 100% { opacity: 0.55; }
+        50%      { opacity: 1; }
+      }
+      @keyframes ringBreath {
+        0%, 100% { transform: scale(0.96); opacity: 0.75; }
+        50%      { transform: scale(1.05); opacity: 1; }
+      }
+      @keyframes checkDraw {
+        0%   { stroke-dashoffset: 45; opacity: 0.3; }
+        45%  { stroke-dashoffset: 0; opacity: 1; }
+        85%  { stroke-dashoffset: 0; opacity: 1; }
+        100% { stroke-dashoffset: 45; opacity: 0.3; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#goldMistClip)">
+    
+    <rect width="850" height="200" fill="url(#darkBase)" />
+
+    
+    <rect class="lightning-flash-bg" width="850" height="200" />
+
+    
+    <g class="mist-layer">
+      <ellipse cx="240" cy="55" rx="250" ry="24" fill="url(#mistGrad)" />
+      <ellipse cx="640" cy="145" rx="260" ry="22" fill="url(#mistGrad)" />
+    </g>
+    <g class="mist-layer-slow">
+      <ellipse cx="460" cy="105" rx="280" ry="20" fill="url(#mistGrad)" />
+    </g>
+
+    
+    <g class="light-sweep">
+      <rect x="0" y="0" width="220" height="200" fill="url(#lightSweepGrad)" transform="skewX(-22)" />
+    </g>
+
+    
+    <polyline class="lightning-bolt" points="528,12 521,36 531,40 520,68" />
+    <polyline class="lightning-bolt-alt" points="764,10 759,27 766,30 758,48" />
+
+    
+    
+    
+    <g transform="translate(42, 82)">
+      
+      <text x="0" y="0" class="ds-title">DATA SPECIALIST</text>
+
+      <line x1="0" y1="18" x2="315" y2="18" stroke="#363128" stroke-width="1" />
+
+      
+      <text x="0" y="40" class="ds-identity">ANGGUN SULIS SETYAWAN (BANGSUWAN)</text>
+    </g>
+
+    
+    
+    
+    <g transform="translate(372, 34)">
+      <rect x="0" y="0" width="114" height="132" rx="8" fill="#10141c" stroke="#383226" stroke-width="1" />
+
+      
+      <text x="57" y="18" text-anchor="middle" class="mono-sm">DATA</text>
+
+      
+      <g class="disk-glow" transform="translate(18, 28)">
+        <ellipse cx="14" cy="6" rx="14" ry="4.5" fill="#1b1812" stroke="#d2a65d" stroke-width="1.1" />
+        <path d="M 0 6 L 0 24 A 14 4.5 0 0 0 28 24 L 28 6" fill="#141820" stroke="#d2a65d" stroke-width="1.1" />
+        <path d="M 0 15 A 14 4.5 0 0 0 28 15" fill="none" stroke="#bd8b43" stroke-width="0.9" opacity="0.7" />
+      </g>
+
+      
+      <g transform="translate(56, 31)">
+        <rect class="data-row-1" x="0" y="0" width="38" height="4" rx="2" fill="#f2d89d" />
+        <rect class="data-row-2" x="0" y="8" width="28" height="4" rx="2" fill="#d2a65d" />
+        <rect class="data-row-3" x="0" y="16" width="34" height="4" rx="2" fill="#bd8b43" />
+        <rect class="data-row-4" x="0" y="24" width="24" height="4" rx="2" fill="#d2a65d" />
+      </g>
+
+      
+      <g transform="translate(16, 74)">
+        <rect x="0" y="0" width="82" height="38" rx="5" fill="#141922" stroke="#2c2820" stroke-width="0.9" />
+        <rect class="data-row-1" x="8" y="8" width="22" height="4" rx="1.5" fill="#d2a65d" />
+        <rect class="data-row-2" x="35" y="8" width="38" height="4" rx="1.5" fill="#8f8470" />
+
+        <rect class="data-row-3" x="8" y="17" width="30" height="4" rx="1.5" fill="#bd8b43" />
+        <rect class="data-row-4" x="43" y="17" width="30" height="4" rx="1.5" fill="#8f8470" />
+
+        <rect class="data-row-2" x="8" y="26" width="18" height="4" rx="1.5" fill="#f2d89d" />
+        <rect class="data-row-1" x="31" y="26" width="42" height="4" rx="1.5" fill="#8f8470" />
+      </g>
+    </g>
+
+    
+    <g>
+      <path class="edge-base" d="M 486 70 L 575 56" />
+      <path class="edge-base" d="M 486 90 L 575 85" />
+      <path class="edge-base" d="M 486 110 L 575 115" />
+      <path class="edge-base" d="M 486 130 L 575 144" />
+
+      <path class="signal-gold" d="M 486 70 L 575 56" />
+      <path class="signal-amber" d="M 486 90 L 575 85" />
+      <path class="signal-gold" d="M 486 110 L 575 115" />
+      <path class="signal-amber" d="M 486 130 L 575 144" />
+    </g>
+
+    
+    <g>
+      <path class="edge-base" d="M 589 56 L 718 100" />
+      <path class="edge-base" d="M 589 85 L 718 100" />
+      <path class="edge-base" d="M 589 115 L 718 100" />
+      <path class="edge-base" d="M 589 144 L 718 100" />
+
+      <path class="signal-gold" d="M 589 56 L 718 100" />
+      <path class="signal-amber" d="M 589 115 L 718 100" />
+      <path class="signal-gold" d="M 589 144 L 718 100" />
+    </g>
+
+    
+    <g>
+      <circle class="node-pulse-1" cx="582" cy="56" r="7.5" fill="#1c1914" stroke="#f2d89d" stroke-width="1.4" />
+      <circle class="node-pulse-2" cx="582" cy="85" r="7.5" fill="#1c1914" stroke="#d2a65d" stroke-width="1.4" />
+      <circle class="node-pulse-3" cx="582" cy="115" r="7.5" fill="#1c1914" stroke="#f2d89d" stroke-width="1.4" />
+      <circle class="node-pulse-4" cx="582" cy="144" r="7.5" fill="#1c1914" stroke="#bd8b43" stroke-width="1.4" />
+    </g>
+
+    
+    
+    
+    <g transform="translate(718, 56)">
+      <rect x="0" y="0" width="96" height="88" rx="8" fill="#11151d" stroke="#d2a65d" stroke-width="1.1" />
+
+      
+      <text x="48" y="17" text-anchor="middle" class="mono-xs" fill="#f2d89d">SOLUTION</text>
+
+      
+      <g transform="translate(48, 48)">
+        <circle class="solution-ring" cx="0" cy="0" r="18" fill="#191612" stroke="#d2a65d" stroke-width="1.3" />
+        <circle cx="0" cy="0" r="12" fill="none" stroke="#bd8b43" stroke-width="0.8" stroke-dasharray="3 3" />
+        <path class="solution-check" d="M -6 0 L -1.5 5 L 7 -5" fill="none" stroke="#f2d89d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+
+      
+      <text x="48" y="78" text-anchor="middle" class="mono-sm" fill="#f4f0e5">IMPACT</text>
+    </g>
+
+    
+    <path class="falling-leaf" d="M 0 0 Q 7 -4 14 0 Q 7 4 0 0 Z" />
+    <path class="falling-leaf-slow" d="M 0 0 Q 6 -3.5 12 0 Q 6 3.5 0 0 Z" />
+
+    
+    <rect x="0.5" y="0.5" width="849" height="199" rx="11.5" fill="none" stroke="#363128" stroke-width="1" />
+  </g>
+</svg>
